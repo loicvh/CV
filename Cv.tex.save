@@ -1,4 +1,6 @@
-
+%
+% This document is widely inspired by 
+%
 %Document Class Definition
 \documentclass{article}
 
@@ -222,9 +224,6 @@
     \end{shaded}
   }\vspace{-5pt}
 }
-
-
-
 \newcommand{\ressubheading}[3]{
 \begin{tabular*}{4in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
 		\textcolor{mainblue}{\textbf{#1}} & \textit{#3} \\
@@ -273,8 +272,8 @@ urlcolor=mainblue!50!black}
 			\icon{\faEnvelopeO}&\bfseries\href{mailto:\cvemail}\cvemail\\
 			\icon{\faPhone }&\cvphonenumber\\
 			\icon{\faHome}&\cvaddress\\
-			\icon{\faGithub}&\href{\github}{\textbf{GitHub link}} \\
-			\icon{\faLinkedin}&\href{\cvlinkedin}{\textbf{Profile link}}\\
+			\icon{\faGithub}&\href{\github}{\textbf{Goto GitHub}} \\
+			\icon{\faLinkedin}&\href{\cvlinkedin}{\textbf{Goto Profile}}\\
 		\end{tabularx}
 	\end{table}
 
@@ -307,22 +306,12 @@ urlcolor=mainblue!50!black}
 \end{textblock}
 
 
-\begin{textblock}{5}(15, .5)
-
-\vspace{8pt}
-  \parbox{\textwidth}{\setlength{\FrameSep}{\outerbordwidth}
-    \begin{shaded}
-\setlength{\fboxsep}{0pt}\framebox[\textwidth][l]{\setlength{\fboxsep}{4pt}\fcolorbox{shadecolorB}{shadecolorB}{\textbf{\sffamily{\mbox{~}\makebox[1.75in][l]{\includegraphics[scale=.2]{loic.jpg} } \vphantom{p\^{E}}}}}}
-    \end{shaded}
-  }\vspace{-5pt}
-
-\end{textblock}
-\begin{textblock}{10.7}(9.25, 5.5)
+\begin{textblock}{10.7}(9.25, 1)
 \resheading{Education}
 
 
 \begin{itemize}
-\item \ressubheading{Karlsruher Institut für Technologie}{Erasmus in the Electrical Engineering faculty}{present}
+\item \ressubheading{Karlsruher Institut für Technologie}{Erasmus in Electrical Engineering}{fall 2017}
 \item \ressubheading{Université Catholique de Louvain}{Master in Mathematical Engineering}{2016 - present}
 \item \ressubheading{Université Catholique de Louvain}{Bachelor in Civil Engineering -  with great honor}{2013 - 2016}
 \begin{itemize}
@@ -340,33 +329,16 @@ urlcolor=mainblue!50!black}
 
 
 \begin{itemize}
-  \item \ressubheading{Tutor in physics, chemistry and mathematics}{I gave educational support to 1st year engineering students.}{2016}
- \item \ressubheading{Tutor in physics}{I gave educational support to 1st year engineering students.}{fall 2015}
+  \item \ressubheading{Tutor in physics, chemistry and mathematics}{Giving educational support to 1st year engineering students.}{2016}
+ \item \ressubheading{Tutor in physics}{Giving educational support to 1st year engineering students.}{fall 2015}
 \end{itemize}
 
 \resheading{Leisure\,Interests}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{itemize}
   \item \ressubheading{Chief of a scout group}{In charge of the entertainment of 36 children from 6 to 11.}{2012-2016}
- \item \ressubheading{Drummer in a band}{Creator and member of The Callaways.}{2010-2015}
+ \item \ressubheading{Drummer in a band}{Creator and member of The Callaway.}{2010-2015}
   \end{itemize}
-
-\resheading{Achievements}
-
-\begin{itemize}
-\item \begin{tabular*}{4in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
-		\textcolor{mainblue}{\textbf{Belgian finale of the Emergenza festivale}} & \textit{2015} \\
-		\textit{As a member of The Callaways, I performed on the multiple } &  \\
-		\textit{ rounds of the Emergenza festival until the finale taking place } & \\
-		\textit{at Botanique - Orangerie in Brussels.}
-\end{tabular*}\vspace{-6pt}
-
-%\item \ressubheading{Online courses}{Attented online courses}{}
-%\begin{itemize}
-%\item Paradigms of Computer Programming - Fundamentals (edx)
-%\item Paradigms of Computer Programming - Abstraction and Concurrency (edx)
-%\end{itemize}
-\end{itemize}
 
 \end{textblock}
 
